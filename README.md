@@ -16,12 +16,12 @@ Objetivo del proyecto
 
 Este proyecto permite:
 
-✔ Dibujar un mapa real de Colombia
-✔ Agregar ciudades visualmente
-✔ Crear rutas entre ciudades con pesos (distancia)
-✔ Calcular el camino más corto entre dos ciudades
-✔ Mostrar las ciudades ordenadas alfabéticamente (Merge Sort)
-✔ Mostrar visualmente el camino mínimo sobre el mapa
+ Dibujar un mapa real de Colombia
+ Agregar ciudades visualmente
+ Crear rutas entre ciudades con pesos (distancia)
+ Calcular el camino más corto entre dos ciudades
+ Mostrar las ciudades ordenadas alfabéticamente (Merge Sort)
+ Mostrar visualmente el camino mínimo sobre el mapa
 
 Requisitos
 
@@ -63,19 +63,19 @@ Guarda:
 "Bogotá" → (x,y)
 "Cali" → (x,y)
 
-🛣️ Rutas (aristas)
+Rutas (aristas)
 Map<String, List<Edge>> grafo;
 Cada ciudad tiene una lista de destinos con su peso.
 
-🔗 Clase Edge
+Clase Edge
 public class Edge {
     public final String destino;
     public final int peso;
     public Edge(String destino, int peso) {
         this.destino = destino;
         this.peso = peso;    }
-🖥️ 5.2 Interfaz gráfica y eventos
-🖼 Fondo del mapa
+ Interfaz gráfica y eventos
+ Fondo del mapa
 
 Se carga con:
 Image fondo = ImageIO.read(new File("fondo_colombia.jpg"));
