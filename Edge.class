@@ -1,0 +1,9 @@
+class Edge {
+   String destino;
+   int peso;
+
+   Edge(String var1, int var2) {
+      this.destino = var1;
+      this.peso = var2;
+   }
+}
